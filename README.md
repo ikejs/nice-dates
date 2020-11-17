@@ -39,4 +39,4 @@ console.log(
 
 - `orderDates([<dates>])` Returns an array of dates in order.
 
-- `pastPresentFuture([<dates>])` Returns an array of 
+- `pastPresentFuture([<dates>])` Returns an object with arrays for past, present and future dates.
