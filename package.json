@@ -1,0 +1,31 @@
+{
+  "name": "nice-dates",
+  "version": "1.0.0",
+  "description": "Do more with dates!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikejs/nice-dates.git"
+  },
+  "keywords": [
+    "date",
+    "formatter",
+    "dates",
+    "format",
+    "pretty",
+    "nice",
+    "time"
+  ],
+  "author": "Ike Holzmann (ikejs)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikejs/nice-dates/issues"
+  },
+  "homepage": "https://github.com/ikejs/nice-dates#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
