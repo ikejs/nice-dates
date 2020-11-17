@@ -1,6 +1,6 @@
 {
   "name": "nice-dates",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Do more with dates!",
   "main": "index.js",
   "scripts": {
@@ -12,12 +12,14 @@
   },
   "keywords": [
     "date",
-    "formatter",
-    "dates",
-    "format",
-    "pretty",
-    "nice",
-    "time"
+    "time",
+    "sorter",
+    "sort",
+    "consecutive",
+    "past",
+    "present",
+    "future",
+    "organize"
   ],
   "author": "Ike Holzmann (ikejs)",
   "license": "ISC",
