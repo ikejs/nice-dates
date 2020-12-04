@@ -12,31 +12,23 @@ Do more with dates!
 npm i nice-dates --save
 ```
 
-## Usage
-
+## Date Formatting
 ```
-const { consecutiveDates } = require('nice-dates');
+const { timeAgoUntil } = require('nice-dates');
 
-
-// Let's get 4 consecutive dates starting November 5th, each 3 days apart.
-
-console.log(
-   consecutiveDates(new Date(2020, 10, 5), 4, 3)
-);
-
-
-// OUTPUT:
-   [
-      new Date('2020-11-05T07:00:00.000Z'),
-      new Date('2020-11-08T07:00:00.000Z'),
-      new Date('2020-11-11T07:00:00.000Z'),
-      new Date('2020-11-14T07:00:00.000Z')
-   ]
+timeAgoUntil(new Date('2020-11-08T07:00:00.000Z')) // just now
+timeAgoUntil(new Date('2020-11-08T06:59:32.000Z')) // 28 seconds ago
+timeAgoUntil(new Date('2020-11-07T04:23:15.000Z')) // yesterday
+timeAgoUntil(new Date('2020-11-11T02:15:07.000Z')) // 3 days from now
+timeAgoUntil(new Date('2020-11-09T04:23:15.000Z')) // tomorrow
+timeAgoUntil(new Date('2018-10-08T04:23:15.000Z')) // 2 years ago
 ```
 
 ## Methods
-- `consecutiveDates(<date>, <repeat>, <offset>)` Returns an array of consecutive dates.
+- `timeAgoUntil(<date>)` Returns the time ago/until the date.
 
-- `orderDates([<dates>])` Returns an array of dates in order.
+- `consecutiveDates(<date>, <repeat>, <offset>)` Returns an array of consecutive dates with an offset for each day.
+
+- `orderDates([<dates>])` Puts a list of dates in order.
 
 - `pastPresentFuture([<dates>])` Returns an object with arrays for past, present and future dates.
