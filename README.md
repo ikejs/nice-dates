@@ -1,4 +1,4 @@
-# strings-plus
+# nice-dates
 Do more with dates!
 
 ![alt text](https://img.shields.io/npm/v/nice-dates)
