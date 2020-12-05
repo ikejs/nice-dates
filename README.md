@@ -1,5 +1,5 @@
-# strings-plus
-Do more with dates!
+# nice-dates
+Date formatter with more date methods!
 
 ![alt text](https://img.shields.io/npm/v/nice-dates)
 ![alt text](https://img.shields.io/github/issues/ikejs/nice-dates)
